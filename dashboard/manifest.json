@@ -1,0 +1,14 @@
+{
+  "name": "paperclip-monitor",
+  "label": "Paperclip",
+  "description": "Monitor read-only untuk instance Paperclip: status, health, database, dan service",
+  "icon": "Paperclip",
+  "version": "1.0.0",
+  "tab": {
+    "path": "/paperclip",
+    "position": "after:kanban"
+  },
+  "entry": "dist/index.js",
+  "css": "dist/style.css",
+  "api": "plugin_api.py"
+}

@@ -1,0 +1,3 @@
+name: paperclip-monitor
+version: "1.0"
+description: Monitor baca-saja instance Paperclip (status service, health, database).

@@ -1,0 +1,17 @@
+/* paperclip-monitor dashboard plugin — status chip, metrik ringkas, daftar info */
+.pc-grid { display: grid; gap: 1rem; }
+.pc-row { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; }
+.pc-muted { color: var(--color-muted-foreground); font-size: 0.78rem; }
+.pc-mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.78rem; }
+
+.pc-status {
+  font-size: 0.7rem; font-weight: 700; padding: 0.1rem 0.5rem;
+  border-radius: 999px; border: 1px solid var(--color-border);
+}
+.pc-ok { background: rgba(52, 211, 153, 0.15); color: var(--color-primary); }
+.pc-down { background: rgba(248, 113, 113, 0.15); color: #f87171; }
+.pc-unknown { background: rgba(148, 163, 184, 0.12); color: var(--color-muted-foreground); }
+
+.pc-kv { display: grid; grid-template-columns: 11rem 1fr; gap: 0.25rem 0.75rem; }
+.pc-kv dt { color: var(--color-muted-foreground); font-size: 0.78rem; }
+.pc-kv dd { margin: 0; font-size: 0.82rem; word-break: break-all; }
